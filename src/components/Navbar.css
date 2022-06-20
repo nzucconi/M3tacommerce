@@ -1,0 +1,9 @@
+.navbar-brand{
+    margin-left: 1rem;
+}
+
+#header .navbar {
+    background-color: #161a21;
+    min-height: 66px; } 
+    #header .navbar a {
+      color: white; }
