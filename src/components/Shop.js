@@ -1,14 +1,14 @@
 import React from 'react';
 
-function ProductCard({ brand , item, price }) {
+function ProductCard(props) {
     return (
       <div id="shop">
         <div> 
           <div>
             <img src="" alt=""/>
-            <div className="temporal2">
-              <p>{brand} {item}</p>
-              <p>US$ {price}</p>
+            <div>
+              <p>{props.brand} {props.item}</p>
+              <p>US$ {props.price}</p>
             </div>
             <button>Add to cart</button>
           </div>
