@@ -1,0 +1,8 @@
+.mainBanner {
+    display: flex;
+    align-items: start;
+    justify-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    margin: 10px;
+}

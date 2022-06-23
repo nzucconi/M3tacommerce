@@ -1,4 +1,5 @@
 import React from 'react';
+import './ProductCard.css'
 
 function ProductCard (props) {
 
@@ -15,8 +16,8 @@ function ProductCard (props) {
   );
 
   return (
-      <div>
-        <img src="" alt=""/>
+      <div className="cardProduct">
+        <img src={props.src}/>
         <div>
           <Brand/> 
           <Title/>

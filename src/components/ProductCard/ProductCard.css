@@ -1,0 +1,8 @@
+.cardProduct {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    margin: 20px;
+    min-height: 400px;
+    border: 2px solid;
+}
