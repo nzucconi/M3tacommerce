@@ -1,20 +1,14 @@
 import React from 'react';
+import ProductCard from './ProductCard';
 
-function ProductCard(props) {
-    return (
-      <div id="shop">
-        <div> 
-          <div>
-            <img src="" alt=""/>
-            <div>
-              <p>{props.brand} {props.item}</p>
-              <p>US$ {props.price}</p>
-            </div>
-            <button>Add to cart</button>
-          </div>
-        </div>
+function Shop() {
+    return(
+      <div>
+        <ProductCard brand="Hello" title="Unisex Kids and Adult" price="34"/>
+        <ProductCard brand="Flexfit Screenish" title="Unisex Kids and Adult" price="34"/>
+        <ProductCard brand="Flexfit Screenish" title="Crew Cap" price="65"/>
       </div>
-    )
+      )
   };
   
-  export default ProductCard;
+  export default Shop;

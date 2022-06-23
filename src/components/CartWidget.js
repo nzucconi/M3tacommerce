@@ -1,11 +1,12 @@
-import React from 'react'
+import React from 'react';
+import './CardWidget.css';
 
 function CartWidget() {
     return(
         <div>
             <div className="nav-item">
                 <a className="nav-link" href="index.html"></a>
-                <img src="media/carticon.jpg" width="40" alt="Cart Logo"/>
+                <img className="cartIcon" src="media/carticon.jpg" width="40" alt="Cart Logo"/>
             </div>
         </div>
       )
