@@ -1,0 +1,33 @@
+.countBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.changeItem {
+    padding: 0px 12px;
+}
+
+p {
+    font-size: 15px;
+    padding: 0px 20px;
+    margin-bottom: 0px;
+}
+
+.addToCartButtonBox{
+    padding: 0px 10px;
+    margin: auto;
+}
+
+.changeItemBox{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 5px;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+.addItemButton{
+    padding: 10px 10px;
+}

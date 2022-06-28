@@ -1,5 +1,6 @@
 import React from 'react';
 import './ProductCard.css'
+import ItemCount from '../ItemCount/ItemCount';
 
 function ProductCard (props) {
 
@@ -22,8 +23,8 @@ function ProductCard (props) {
           <Brand/> 
           <Title/>
           <Price/>
+          <ItemCount stock="10" initial="1"/>
         </div>
-        <button>Add to cart</button>
       </div> 
       )
     }
