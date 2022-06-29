@@ -7,6 +7,7 @@ function CartWidget() {
             <div className="nav-item">
                 <a className="nav-link" href="index.html"></a>
                 <img className="cartIcon" src="media/carticon.jpg" width="40" alt="Cart Logo"/>
+                <p></p>
             </div>
         </div>
       )

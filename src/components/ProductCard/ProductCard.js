@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './ProductCard.css'
 import ItemCount from '../ItemCount/ItemCount';
 
 function ProductCard (props) {
+
+  const [stock, setStock] = useState(props.stock);
 
   const Brand = () => (
     <h3>{props.brand}</h3>
@@ -23,7 +25,7 @@ function ProductCard (props) {
           <Brand/> 
           <Title/>
           <Price/>
-          <ItemCount stock="10" initial="1"/>
+          <ItemCount stock={props.stock} id={props.id}/>
         </div>
       </div> 
       )
