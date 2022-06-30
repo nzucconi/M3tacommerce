@@ -2,14 +2,13 @@ import React from 'react';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/Navbar/Navbar';
-import Shop from './components/Shop/Shop';
-import Count from './components/ItemCount/ItemCount';
+import ItemListContainer from './components/Shop/ItemListContainer';
 
 function App() {
   return(
     <div>
       <Navbar />
-      <Shop />
+      <ItemListContainer />
     </div>
     )
 };

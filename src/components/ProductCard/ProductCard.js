@@ -1,10 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react'
 import './ProductCard.css'
-import ItemCount from '../ItemCount/ItemCount';
+import Count from '../ItemCount/ItemCount';
+import ItemDetails from '../ItemList/Item';
 
 function ProductCard (props) {
-
-  const [stock, setStock] = useState(props.stock);
 
   const Brand = () => (
     <h3>{props.brand}</h3>
@@ -19,13 +18,14 @@ function ProductCard (props) {
   );
 
   return (
-      <div className="cardProduct">
+      <div className='cardProduct'>
         <img src={props.src}/>
         <div>
           <Brand/> 
           <Title/>
           <Price/>
-          <ItemCount stock={props.stock} id={props.id}/>
+          <Count stock={props.stock} id={props.id}/>
+          <ItemDetails/>
         </div>
       </div> 
       )

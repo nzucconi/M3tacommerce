@@ -1,0 +1,26 @@
+[
+    {
+        "brand": "Cap Stellix",
+        "title": "Personalized Cap",
+        "price": "U$D34",
+        "src": "media/cap1.jpeg",
+        "stock": "20",
+        "id": 1
+    },
+    {
+        "brand": "Cap Founi",
+        "title": "Endorsed an Fun",
+        "price": "U$D44",
+        "src": "media/cap1.jpeg",
+        "stock": "10",
+        "id": 2
+    },
+    {
+        "brand": "MarketCap",
+        "title": "Respected Nature",
+        "price": "U$D67",
+        "src": "media/cap1.jpeg",
+        "stock": "15",
+        "id": 3
+    }
+]
