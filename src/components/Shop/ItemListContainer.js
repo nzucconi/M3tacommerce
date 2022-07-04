@@ -10,7 +10,7 @@ const [info, setInfo] = useState([])
 useEffect(()=> {
 	fetch('itemList.json')
   .then( (resp) => resp.json())
-	.then( (data) => setTimeout(() => setInfo(data)), 2000)
+	.then( (data) => setInfo(data))
 }, [])
 
 return (

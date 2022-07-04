@@ -5,6 +5,10 @@ function Count({id, stock}) {
 
     let cart = []
 
+    // const array1 = [{id:1, name...}]
+    // const a = array1.find(e=>e>=2)
+    // console.log(a)
+
     const addToCart = () => {
         if(count <= stock) {
             let itemsInCart = JSON.parse(localStorage.getItem('cart'))
